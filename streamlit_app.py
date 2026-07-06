@@ -1,7 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-# from streamlit_drawable_canvas import st_canvas
+from streamlit_drawable_canvas import st_canvas
 import networkx as nx
 import matplotlib.pyplot as plt
 import numpy as np
