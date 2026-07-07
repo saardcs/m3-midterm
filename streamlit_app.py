@@ -646,8 +646,6 @@ if st.button("Submit Test"):
             submission["scores"]["part1"],
             submission["scores"]["part2"],
             submission["scores"]["part3"],
-            submission["scores"]["part4"],
-            submission["scores"]["part5"],
             submission["scores"]["total"],
             timestamp
         ]
