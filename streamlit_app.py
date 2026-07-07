@@ -366,7 +366,10 @@ def grade_factorization(raw_gcf, user_raw_n1, user_raw_n2, num1, num2, max_point
     except:
         pass
 
-    total_score = 0.5 * (score_n1 + score_n2) + gcf_score
+    # total_score = 0.5 * (score_n1 + score_n2) + gcf_score
+    factor_score = ((score_n1 + score_n2) / 2) * (max_points / 2)
+
+    total_score = factor_score + gcf_score
     return round(total_score, 2)
 
 def compute_euclidean_subtraction_steps(a, b):
