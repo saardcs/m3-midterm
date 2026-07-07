@@ -287,12 +287,12 @@ custom_components = {
     "sudoku": sudoku
 } """
 
-sudoku_set_a = components.declare_component(
+sudoku_a = components.declare_component(
     "sudoku_a",
     path="components/sudoku/set_a"
 )
 
-sudoku_set_b = components.declare_component(
+sudoku_b = components.declare_component(
     "sudoku_b",
     path="components/sudoku/set_b"
 )
