@@ -282,9 +282,24 @@ with open("exam.json") as f:
     exam_data = json.load(f)
 
 # Declare components
-sudoku = components.declare_component("sudoku", path="components/sudoku")
+""" sudoku = components.declare_component("sudoku", path="components/sudoku")
 custom_components = {
     "sudoku": sudoku
+} """
+
+sudoku_set_a = components.declare_component(
+    "sudoku_a",
+    path="components/sudoku/set_a"
+)
+
+sudoku_set_b = components.declare_component(
+    "sudoku_b",
+    path="components/sudoku/set_b"
+)
+
+custom_components = {
+    "sudoku_a": sudoku_a,
+    "sudoku_b": sudoku_b
 }
 
 user_board = []
