@@ -205,10 +205,10 @@
           "id": "q16",
           "text": "16. How many total password combinations are possible?",
           "options": [
-            "44,261,653,680",
             "916,132,832",
-            "776,520,240",
-            "13,388,280"
+            "60,466,176",
+            "45,239,040",
+            "11,881,376"
           ],
           "max_points": 1
         }
