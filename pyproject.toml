@@ -6,6 +6,11 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "streamlit>=1.58.0",
+    "gspread",
+    "google-api-python-client",
+    "networkx",
+    "streamlit_drawable_canvas",
+    "matplotlib"
 ]
 
 [tool.uv]
