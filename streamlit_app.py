@@ -636,7 +636,7 @@ if st.button("Submit Test"):
         
 
         try:
-            sheet = client.open("Final").worksheet(selected_class)
+            sheet = client.open("Midterm").worksheet(selected_class)
         except gspread.WorksheetNotFound:
             st.error(f"Worksheet '{selected_class}' not found. Please check your Google Sheet.")
 
