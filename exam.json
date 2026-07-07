@@ -172,7 +172,7 @@
             "a-z (lowercase letters)",
             "0-9 (numbers)",
             "A-Z (uppercase letters)",
-            "All of the above"
+            "b and c"
           ],
           "max_points": 1
         },
