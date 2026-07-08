@@ -20,7 +20,7 @@
         {
           "type": "instruction",
           "text": "Suppose that the four-character code has the following restrictions:\n- Numbers and letters\n- Uppercase and lowercase letters\n- Cannot repeat characters",
-          "image": "images/5char.png"
+          "image": "images/4char.png"
         },
         {
           "type": "mcq",
@@ -85,7 +85,7 @@
         {
           "type": "instruction",
           "text": "Suppose that the four-character code has the following restrictions:\n- Numbers only\n- Cannot repeat characters",
-          "image": "images/5char.png"
+          "image": "images/4char.png"
         },
         {
           "type": "mcq",
@@ -131,7 +131,7 @@
             "60",
             "10",
             "61",
-            "6"
+            "7"
           ],
           "max_points": 1
         },
@@ -143,14 +143,14 @@
             "44,261,653,680",
             "916,132,832",
             "100,000",
-            "30,240"
+            "5040"
           ],
           "max_points": 1
         },
         {
           "type": "instruction",
           "text": "Suppose that the four-character code has the following restrictions:\n- Numbers and letters\n- Uppercase letters ONLY",
-          "image": "images/5char.png"
+          "image": "images/4char.png"
         },
         {
           "type": "mcq",
@@ -196,7 +196,7 @@
             "26",
             "22",
             "36",
-            "32"
+            "33"
           ],
           "max_points": 1
         },
@@ -207,7 +207,7 @@
           "options": [
             "916,132,832",
             "60,466,176",
-            "45,239,040",
+            "1,413,720",
             "11,881,376"
           ],
           "max_points": 1
